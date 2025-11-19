@@ -3,6 +3,7 @@ import NavBar from "./Components/NavBar/NavBar"
 import DribbleNav from "./Components/NavBar/DribbleNav"
 import Layout from "./layout/Layout"
 import Home from "./Components/Home/Home"
+import Error from "./Components/ErrorRoute/Error"
 const router = createBrowserRouter(
   [
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
         },
 
       ]
+    },
+    {
+      path:"*",
+      element:<Error/>
     }
   ]
 )
