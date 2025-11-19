@@ -9,7 +9,7 @@ export default function Layout(){
             <div id="top" className="h-full w-full ">
                 <NavBar/>
             </div>
-            <div id="content" className="h-[100vw]">
+            <div id="content" className="overflow-auto outline-1 outline-gray-800 ">
                 <main>
                     <Outlet/>
                 </main>
