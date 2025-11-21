@@ -12,7 +12,7 @@ const Error = () => {
                         <p className='text-5xl font-semibold text-red-500 mt-4'>Error, Page Not Found</p>
                     </div>
                     <Link to="/"
-                        className='font-roboto-mono p-4 outline outline-white mt-8 hover:bg-white hover:text-black transition-all duration-300 rounded-full flex items-center gap-2'
+                        className=' rounded-2xl font-roboto-mono p-4 outline outline-white mt-8 hover:bg-white hover:text-black transition-all duration-700 ease-in-out  flex items-center gap-2 hover:rounded-full'
                     >   <FaArrowLeft />
                         Go Home</Link>
                 </div>

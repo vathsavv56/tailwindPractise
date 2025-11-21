@@ -1,8 +1,10 @@
-import React from 'react'
+import Hero from "./Hero"
 
 const Home = () => {
   return (
-    <div>.</div>
+    <div className="bg-red-900 h-screen w-full rounded-3xl">
+     <Hero/>
+    </div>
   )
 }
 
