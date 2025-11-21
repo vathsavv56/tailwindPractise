@@ -2,7 +2,7 @@ import Hero from "./Hero"
 
 const Home = () => {
   return (
-    <div className="bg-red-900 h-screen w-full rounded-3xl">
+    <div className=" h-screen w-full rounded-3xl">
      <Hero/>
     </div>
   )

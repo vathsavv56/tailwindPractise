@@ -4,6 +4,7 @@ import DribbleNav from "./Components/NavBar/DribbleNav"
 import Layout from "./layout/Layout"
 import Home from "./Components/Home/Home"
 import Error from "./Components/ErrorRoute/Error"
+import Menu from "./Components/Menu"
 const router = createBrowserRouter(
   [
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter(
           element:<DribbleNav/>
 
         },
+        {
+          path:"/menu",
+          element:<Menu/>
+        }
 
       ]
     },
