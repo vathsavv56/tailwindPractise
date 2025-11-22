@@ -9,6 +9,10 @@ import Github from "./Components/Github"
 const router = createBrowserRouter(
   [
     {
+      path:"/Tailwind-Practise",
+      element : <Layout/>
+    },
+    {
       path:"/",
       element : <Layout/>,
       children:[
