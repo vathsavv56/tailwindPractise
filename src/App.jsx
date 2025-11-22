@@ -6,11 +6,13 @@ import Home from "./Components/Home/Home"
 import Error from "./Components/ErrorRoute/Error"
 import Menu from "./Components/Menu"
 import Github from "./Components/Github"
+import GhError from "./Components/ErrorRoute/GhError"
+
 const router = createBrowserRouter(
   [
     {
       path:"/Tailwind-Practise",
-      element : <Layout/>
+      element : <GhError/>
     },
     {
       path:"/",
