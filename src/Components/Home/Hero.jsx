@@ -25,10 +25,13 @@ function Hero1() {
 
     <div className="h-[600px] bg-yellow-300 relative mb-5 rounded-3xl flex">
 
-      <div id="left" className=' font-roboto-mono relative w-1/3 h-full  rounded-3xl  p-15 hover:p-20 after:absolute after:px-4 after:py-2  after:bg-blue-500 after:content-["Kaiser"] after:opacity-0 hover:after:opacity-100 after:rounded-2xl after:text-white  transition-all after:top-30 after:h-[50px] after:w-[100px] after:text-center'>
+      <div id="left" className=' font-roboto-mono relative w-1/3 h-full  rounded-3xl  p-15 hover:p-20 after:absolute after:px-4 after:py-2  after:bg-blue-500 after:content-["click_image"] after:opacity-0 hover:after:opacity-100 after:rounded-2xl after:text-white  transition-all after:top-30 after:h-[50px] after:w-[150px] after:text-center'>
 
+        <Link
+        to="/github"
+        >
         <img src={kaiser} alt="hero image here" className='h-full w-full object-cover rounded-3xl' />
-
+        </Link>
       </div>
 
       <div id="right" className='w-2/3 h-full p-10 rounded-3xl'>

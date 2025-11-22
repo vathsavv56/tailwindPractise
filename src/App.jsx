@@ -5,6 +5,7 @@ import Layout from "./layout/Layout"
 import Home from "./Components/Home/Home"
 import Error from "./Components/ErrorRoute/Error"
 import Menu from "./Components/Menu"
+import Github from "./Components/Github"
 const router = createBrowserRouter(
   [
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter(
         {
           path:"/menu",
           element:<Menu/>
+        },
+        {
+          path:"/github",
+          element:<Github/>
         }
 
       ]
