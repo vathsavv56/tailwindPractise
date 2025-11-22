@@ -1,6 +1,6 @@
 import { createBrowserRouter , RouterProvider} from "react-router-dom"
 import NavBar from "./Components/NavBar/NavBar"
-import DribbleNav from "./Components/NavBar/DribbleNav"
+import NavMenu from "./Components/NavMenu"
 import Layout from "./layout/Layout"
 import Home from "./Components/Home/Home"
 import Error from "./Components/ErrorRoute/Error"
@@ -16,8 +16,8 @@ const router = createBrowserRouter(
           element:<Home/>
         },
         {
-          path:"/dribblenav",
-          element:<DribbleNav/>
+          path:"/navbars",
+          element:<NavMenu/>
 
         },
         {
